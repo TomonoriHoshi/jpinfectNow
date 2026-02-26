@@ -1,7 +1,7 @@
 Package: jpinfectNow
 Type: Package
 Title: Visualising Infectious Disease Surveillance Data from the jpinfect Package
-Version: 0.1.0
+Version: 0.0.1
 Authors@R: c(
     person(
       "Tomonori", "Hoshi",
@@ -20,8 +20,9 @@ Authors@R: c(
     )
   )
 Maintainer: Tomonori Hoshi <tomonori.hoshi.japan@gmail.com>
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Provides functions to visualise infectious disease case data from 
+             the Japan Institute for Health Security, as supplied by the 'jpinfect' package. 
+             Includes tools for plotting weekly notifiable disease case reports from Japan.
 License: What license is it under?
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -30,6 +31,7 @@ RoxygenNote: 7.3.2
 Imports: 
     dplyr (>= 1.1.4),
     ggplot (>= 3.5.2),
+    jpinfect,
     sp (2.2-0)
 Suggests: 
     knitr,
